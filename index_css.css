@@ -1,0 +1,82 @@
+html {
+  margin: 0;
+}
+body {
+  background-color: #90ee90;
+  margin: 0;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+}
+
+.headerContainer {
+  width: 100%;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: green;
+}
+
+.headerCenter {
+  display: flex;
+  padding: 1rem;
+  margin-left: 1rem;
+}
+.Link {
+  padding: 10px 12px;
+  font-weight: 700;
+  color: #fff;
+  text-decoration: none;
+}
+
+.SectionContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+}
+
+.box {
+  display: flex;
+  margin: 5rem;
+  background: white;
+  border-radius: 4px;
+  box-shadow: rgba(0, 0, 0, 0.18) 0px 4px 16px 0px;
+  transition: box-shadow 0.25s ease-in 0s, transform 0.25s ease-in 0s;
+  overflow: hidden;
+}
+.box:hover {
+  transform: translateY(-25px);
+  background-color: aqua;
+}
+.move {
+  display: block;
+  text-decoration: none;
+  cursor: pointer;
+}
+.title {
+  padding: 0.7rem;
+  font-size: 1.5rem;
+  color: #000;
+  margin: 0px 0px 0.25rem;
+  line-height: 1.5;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+.body {
+  width: 100%;
+  height: 18rem;
+}
+.K-image {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  max-width: 100%;
+}
+p {
+  font-size: 16px;
+  font-weight: 500;
+}
